@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/widget_toolbar"/>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:hint="点击输入标题"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_content"
+        android:hint="点击输入内容"
+        android:gravity="left|top"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/option_menu"
+        android:orientation="horizontal"
+        android:background="#FFDEDEE4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/new_note_gallery"
+            android:id="@+id/ib_new_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/new_note_camera"
+            android:id="@+id/ib_new_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/new_note_video"
+            android:id="@+id/ib_new_video"
+            android:tint="#FF2F2F2F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/ic_menu_done_24dp"
+            android:id="@+id/ib_done"
+            android:tint="#FF2F2F2F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

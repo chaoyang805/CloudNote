@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp"
+        android:text="1.SurfaceView的一般写法"
+        android:textColor="@color/text_title_color"
+        android:textSize="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/divider_color"/>
+
+    <TextView
+        android:id="@+id/tv_note_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textSize="16sp"
+        android:textColor="@color/md_black_1000"
+        android:text="dnzlkgfalsdngfisdhtgklsajfi再贷款购房紫色飞机还是伦敦召开妇女的快乐指数减肥"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
